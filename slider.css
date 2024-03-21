@@ -1,0 +1,31 @@
+.wrapper .container main .item-section .slider-container .slick-next{
+    right: -4px;
+    top: -18px;
+} 
+.wrapper .container main .item-section .slider-container .slick-prev::before,.wrapper .container main .item-section .slider-container .slick-next::before{
+    background: #FF7A0066;
+    padding-inline: 4px;
+}
+.wrapper .container main .item-section .slider-container .slick-prev:hover,.wrapper .container main .item-section .slider-container .slick-next:hover{
+background:rgba(255, 122, 0, 1) ;
+width: auto;
+}
+ .wrapper .container main .item-section .slider-container .slick-prev{
+    left: 72.5rem;
+    top: -18px;
+} 
+.wrapper .container main .comments .slider-two .slick-next{
+   right: -25px;
+    left: 80rem;
+    top: 4rem;
+} 
+.wrapper .container main .comments .slider-two .slick-prev{
+    left: 78rem;
+    top: 4rem;
+}
+.wrapper .container main .comments .slider-two .slick-prev:hover,.wrapper .container main .comments .slider-two .slick-next:hover{
+    background:rgba(255, 122, 0, 1) ;
+}
+.wrapper .container main .comments .slider-two .slick-prev::before,.wrapper main .comments .slider-two .slick-next::before{
+    background: #FF7A0066;
+}
